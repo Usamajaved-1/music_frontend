@@ -2,6 +2,7 @@
 
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
+import Navbar from '@/components/Navbar';
 
 function MusicSchoolContactUs() {
   const [email, setEmail] = useState('');
@@ -14,6 +15,7 @@ function MusicSchoolContactUs() {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative">
+      <Navbar />
       {' '}
       {/* Ensure the container is relative */}
       {/* BackgroundBeams with adjusted z-index */}

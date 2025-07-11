@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import MusicSchoolTestimonials from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import { redirect } from 'next/navigation';
 
 
 export default function Home() {

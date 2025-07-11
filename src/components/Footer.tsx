@@ -51,7 +51,7 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-col space-y-4">
             <a
               href="#"
               className="hover:text-white transition-colors duration-300"
@@ -74,13 +74,14 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
+          <p>Punjab Pakistan</p>
+          <p>Datics Ai</p>
           <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Phone: (0322) 8186-887
+          </p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+        <p className="text-center text-xs pt-8">© 2025 Music School. All rights reserved.</p>
     </footer>
   )
 }
